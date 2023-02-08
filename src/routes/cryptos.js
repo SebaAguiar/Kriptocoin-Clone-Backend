@@ -2,6 +2,7 @@ const axios = require('axios')
 const express = require('express')
 const router = express()
 const { coinsList } = require('../utils/mockCryptos.js')
+const { cryptoCoins } = require('../utils/mockedCoins.js')
 
 // router.get('/', async(req, res) => {
 //    try {

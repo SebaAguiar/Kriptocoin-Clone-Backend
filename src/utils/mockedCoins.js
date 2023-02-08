@@ -5300,3 +5300,7 @@ const cryptoCoins = [
       }
     }
 ]
+
+module.exports = {
+  cryptoCoins
+}
